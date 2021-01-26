@@ -20,8 +20,8 @@
 2. For CPU:
    - pip install onnxruntime.
    Install protobuf: 
-   - pip install protobuf==3.12.2
-   Convert pytorch model from [https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch]
+   - pip install protobuf==3.12.2.
+   - Convert pytorch model from [https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch].
 3. input_size = (768, 558)
 4. ~0.24 seconds.
 # Onnx-docker(yoloV3_object_detection_onnxruntime_inference.ipynb)
