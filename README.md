@@ -22,14 +22,17 @@
 
 # onnx-efficientdet
 1) https://github.com/phantrdat/onnx-efficientdet
-2) For GPU: 
-   - pip install onnxruntime-gpu
-
-   For CPU:
+2) For CPU:
    - pip install onnxruntime
-
    Install protobuf: 
-
    - pip install protobuf==3.12.2
-
    Convert pytorch model from [https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch)
+3)input_sizes = [512, 640, 768, 896, 1024, 1280, 1280, 1536]
+4)~0.24 seconds
+# onnx-docker(yoloV3_object_detection_onnxruntime_inference.ipynb)
+1)https://github.com/onnx/onnx-docker/tree/master/onnx-ecosystem/inference_demos
+2)### install requirements
+   pip install onnx
+   pip install onnxruntime
+3)image_size = (416, 416)
+4)~0.9 seconds
