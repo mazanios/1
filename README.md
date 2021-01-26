@@ -1,4 +1,4 @@
-1. Еhe link is not a repository.
+1. The link is not a repository.
 2. What you need to run.
 3. The size of the image passed to the output engine (not the original loaded one!).
 4. FPS or MS required for output.
