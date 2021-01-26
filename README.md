@@ -8,10 +8,12 @@
 1. https://github.com/T-Sumida/ObjectDetection4TouchDesginer.
 2. Environment.
    - Anaconda.
-   -$conda create -n {env_name} python=3.7.2.
-   -$activate {env_name}.
-   -$pip install -r requirements.txt.
-3. input_size = ()
+      ```
+      $conda create -n {env_name} python=3.7.2
+      $activate {env_name}
+      $pip install -r requirements.txt
+      ```
+3. input_size = (224, 224)
 4. ~7 seconds.
 # Onnx-efficientdet
 1. https://github.com/phantrdat/onnx-efficientdet.
